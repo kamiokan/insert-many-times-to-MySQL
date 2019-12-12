@@ -5,7 +5,6 @@ use warnings;
 use utf8;
 use feature qw(say);
 use Encode qw(encode);
-use DBI;
 
 # SQLが書かれたファイルを読み込む
 my $filename = 'test.txt';
